@@ -12,7 +12,7 @@ connection_parameters = {
     "database": "SMOOTHIES",
     "schema": "PUBLIC"
 }
-session = Session.builder.configs(connection_parameters).create()
+# session = Session.builder.configs(connection_parameters).create()
 
 # Write directly to the app
 st.title(f"Customize Your Smoothie :cup_with_straw:")
